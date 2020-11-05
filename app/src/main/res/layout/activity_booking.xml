@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/master_background"
+    tools:context=".dashboard.BookingActivity">
+
+    <ImageView
+        android:id="@+id/safari_logo_icon_booking"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/safaris_icon"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/logo_descrption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safari Tanzania"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/safari_logo_icon_booking" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:text="Hotel Booking"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="120dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="15dp"
+            android:autofillHints=""
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="15dp"
+            android:autofillHints=""
+            android:background="@drawable/edittext_bg"
+            android:hint="@string/last_name"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <Spinner
+
+            android:id="@+id/roomType"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="15dp"
+            android:drawSelectorOnTop="true"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/bookingDate"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="285dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/edittext_bg"
+            android:inputType="date" />
+
+
+        <Button
+            android:id="@+id/hotelBook"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/book" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

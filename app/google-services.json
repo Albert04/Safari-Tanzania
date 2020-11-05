@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702973480685",
+    "firebase_url": "https://safari-tanzania-6bbaa.firebaseio.com",
+    "project_id": "safari-tanzania-6bbaa",
+    "storage_bucket": "safari-tanzania-6bbaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702973480685:android:a6d39e36c6b21f08a186e4",
+        "android_client_info": {
+          "package_name": "com.example.safari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702973480685-djenlta2nj16f86s62mergkmae9739kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6Oh3mK5Lyv8M9E6tnhwsOS80DITTQrLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702973480685-djenlta2nj16f86s62mergkmae9739kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

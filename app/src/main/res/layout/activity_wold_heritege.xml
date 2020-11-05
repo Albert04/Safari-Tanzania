@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/master_background"
+    tools:context=".dashboard.woldHeritegeActivity">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/card_serengeti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <GridLayout
+                android:id="@+id/grid_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:columnOrderPreserved="false"
+                android:rowCount="3">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="29dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="12dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+                        <HorizontalScrollView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="16dp">
+                                <ImageView
+
+                                    android:src="@drawable/stone_one"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+
+                                <ImageView
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/stone_two"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+                                <ImageView
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/stone_three"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+
+                                <ImageView
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/stone_four"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                        <TextView
+                            android:id="@+id/stone_national_park"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stone_town"
+                            android:textColor="#6f6f6f"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/stone1_national_park"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/stone_town_of_zanzibar_also_known_as_mji_mkongwe_is_the_old_part_of_zanzibar_city_the_main_city_of_zanzibar_in_tanzania_the_newer_portion_of_the_city_is_known_as_ng_ambo_swahili_for_the_other_side_stone_town_is_located_on_the_western_coast_of_unguja_the_main_island_of_the_zanzibar_archipelago"
+                            android:textColor="#6f6f6f"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="15dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="12dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+                        <HorizontalScrollView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="16dp">
+                                <ImageView
+
+                                    android:src="@drawable/selous_one"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+
+                                <ImageView
+                                    android:layout_marginLeft="18dp"
+                                    android:src="@drawable/selous_two"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+                                <ImageView
+                                    android:layout_marginStart="18dp"
+                                    android:src="@drawable/selous_three"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+
+                                <ImageView
+                                    android:layout_marginStart="10dp"
+                                    android:src="@drawable/selous_four"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:contentDescription="@string/todo" />
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                        <TextView
+                            android:id="@+id/selous_national_park"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/selous_game_reserve"
+                            android:textColor="#6f6f6f"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/selouss_national_park"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/the_selous_game_reserve_is_a_protected_area_in_southern_tanzania_it_covers_a_total_area_of_50_000_km_and_has_additional_buffer_zones_it_was_designated_a_unesco_world_heritage_site_in_1982_due_to_its_wildlife_diversity_and_undisturbed_nature"
+                            android:textColor="#6f6f6f"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

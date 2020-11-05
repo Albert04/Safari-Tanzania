@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/master_background"
+
+    tools:context=".dashboard.NationparkActivity">
+
+
+
+ <ScrollView
+     android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/card_serengeti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <GridLayout
+            android:id="@+id/grid_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/serengeti_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="29dp"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                        <HorizontalScrollView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="16dp">
+                            <ImageView
+
+                                    android:src="@drawable/serengeti_three"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+
+                                <ImageView
+
+                                    android:src="@drawable/serengeti_four"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+                                <ImageView
+
+                                    android:src="@drawable/serengeti_two"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+
+                                <ImageView
+                                   android:layout_marginLeft="10dp"
+                                    android:src="@drawable/serenget_one"
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"/>
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    <TextView
+
+                        android:id="@+id/sere_national_park"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serengeti National park"
+                        android:textColor="#6f6f6f"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_national_park"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="    The Serengeti National Park is a Tanzanian national park in the Serengeti ecosystem in the Mara and Simiyu regions. It is famous and well known for its annual migration of over 1.5 million white-bearded (or brindled) wildebeest and 250,000 zebra and for its numerous Nile crocodile and honey badger."
+
+                        android:textColor="#6f6f6f"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <HorizontalScrollView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+                            <ImageView
+
+                                android:src="@drawable/mikumi_one"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+
+                            <ImageView
+                                android:layout_marginLeft="18dp"
+                                android:src="@drawable/mikumi_two"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+                            <ImageView
+                                android:layout_marginLeft="18dp"
+                                android:src="@drawable/mikumi_three"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+
+                            <ImageView
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/mikumi_four"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/mikum_national_park"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mikumi National park"
+                        android:textColor="#6f6f6f"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/miku_national_park"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="    The Mikumi National Park near Morogoro, Tanzania, was established in 1964. It covers an area of 3,230 km2 is the fourth largest in the country. The park is crossed by Tanzania's A-7 highway."
+                        android:textColor="#6f6f6f"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <HorizontalScrollView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+                            <ImageView
+
+                                android:src="@drawable/saadan_one"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+
+                            <ImageView
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/saadan_two"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+                            <ImageView
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/saadan_three"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+
+                            <ImageView
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/saadan_four"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/sada_national_park"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saadan National park"
+                        android:textColor="#6f6f6f"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/saadan_national_park"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="    Saadani National Park is Tanzania's 13th National Park. Tourists can view animals basking along the Indian Ocean shores. It has an area of 1062 km2 and was officially gazetted in 2005, from a game reserve which had existed from 1969. It is the only wildlife sanctuary in Tanzania bordering the sea."
+                        android:textColor="#6f6f6f"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <HorizontalScrollView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+                            <ImageView
+
+                                android:src="@drawable/manyara_one"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+
+                            <ImageView
+
+                                android:src="@drawable/manyara_two"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+                            <ImageView
+
+                                android:src="@drawable/manyara_three"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+
+                            <ImageView
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/manyara_four"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"/>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/manyar_national_park"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Manyara National park"
+                        android:textColor="#6f6f6f"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/many_national_park"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="    Lake Manyara National Park is a protected area in Tanzania's Arusha and Manyara Regions, situated between Lake Manyara and the Great Rift Valley. It is administered by the Tanzania National Parks Authority, and covers an area of 325 km2 (125 sq mi) including about 230 km2 (89 sq mi) lake surface. More than 350 bird species have been observed on the lake."
+                        android:textColor="#6f6f6f"
+                        android:textSize="14sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

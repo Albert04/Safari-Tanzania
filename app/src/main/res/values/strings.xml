@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Safari</string>
+    <string name="wecome_to_tanzania">Wecome To Tanzania</string>
+    <string name="todo">TODO</string>
+    <string name="register_now">Register Now</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="user_name">User name</string>
+    <string name="register_to_safari">Register To Safari</string>
+    <string name="safari_tanzania">Safari Tanzania</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="national_park">National Park</string>
+    <string name="conservation_area">Conservation Area</string>
+    <string name="cinema">Cinema</string>
+    <string name="hotel">Hotel</string>
+    <string name="night_clubs">Night Clubs</string>
+    <string name="your_travel_partner">Your travel partner</string>
+    <string name="culture">Culture</string>
+    <string name="museum">Museum</string>
+    <string name="unesco_world_heritage">World Heritage Areas</string>
+    <string name="mount_kilimanjaro">Mount Kilimanjaro</string>
+
+    <string name="don_t_have_an_account">Don\'t have an account</string>
+    <string name="or">or</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="don_t_remember_password">Don\'t remember password</string>
+    <string name="login_now">Login Now</string>
+    <string name="register">Register</string>
+
+
+    <string name="user_name1">User Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="the_roof_of_africa">The Roof of Africa</string>
+
+    <string name="tanzaniatz">TIDO</string>
+    <string name="stone_town">Stone Town</string>
+    <string name="selous_game_reserve">Selous Game Reserve</string>
+    <string name="stone_town_of_zanzibar_also_known_as_mji_mkongwe_is_the_old_part_of_zanzibar_city_the_main_city_of_zanzibar_in_tanzania_the_newer_portion_of_the_city_is_known_as_ng_ambo_swahili_for_the_other_side_stone_town_is_located_on_the_western_coast_of_unguja_the_main_island_of_the_zanzibar_archipelago">Stone Town of Zanzibar, also known as Mji Mkongwe, is the old part of Zanzibar City, the main city of Zanzibar, in Tanzania. The newer portion of the city is known as Ng\'ambo, Swahili for \'the other side\'. Stone Town is located on the western coast of Unguja, the main island of the Zanzibar Archipelago.</string>
+    <string name="the_selous_game_reserve_is_a_protected_area_in_southern_tanzania_it_covers_a_total_area_of_50_000_km_and_has_additional_buffer_zones_it_was_designated_a_unesco_world_heritage_site_in_1982_due_to_its_wildlife_diversity_and_undisturbed_nature">The Selous Game Reserve is a protected area in southern Tanzania. It covers a total area of 50,000 km² and has additional buffer zones. It was designated a UNESCO World Heritage Site in 1982 due to its wildlife diversity and undisturbed nature.</string>
+    <string name="book">Book</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+
+
+    <string-array name="hotel_array">
+        <item>Presidential Suite</item>
+        <item>Pent House</item>
+        <item>Family Suite</item>
+        <item>Single Suite</item>
+        <item>Standard Room</item>
+    </string-array>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_booking">Booking</string>
+    <string name="title_activites">User Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/master_background"
+    tools:context=".dashboard.KilimanjaroActivity">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/card_serengeti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <GridLayout
+                android:id="@+id/grid_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:columnOrderPreserved="false"
+                android:rowCount="3">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="29dp"
+                    android:layout_margin="3dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="12dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+                        <HorizontalScrollView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="16dp">
+                                <ImageView
+
+                                    android:src="@drawable/kili_two"
+                                    android:layout_width="350dp"
+                                    android:layout_height="300dp"/>
+
+                                <ImageView
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/kili_one"
+                                    android:layout_width="350dp"
+                                    android:layout_height="300dp"/>
+                                <ImageView
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/kili_three"
+                                    android:layout_width="350dp"
+                                    android:layout_height="300dp"/>
+
+                                <ImageView
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/kili_four"
+                                    android:layout_width="350dp"
+                                    android:layout_height="300dp"/>
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                        <TextView
+                            android:id="@+id/kilin_national_park"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kilimanjaro National Park"
+                            android:textColor="#6f6f6f"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/kilim_national_park"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="    Mount Kilimanjaro is a dormant volcano in Tanzania. It has three volcanic cones: Kibo, Mawenzi and Shira. It is the highest mountain in Africa and the highest single free-standing mountain in the world: 5,895 metres above sea level and about 4,900 metres above its plateau base."
+                            android:textColor="#6f6f6f"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/kilima_national_park"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="    Kilimanjaro is the 4th most topographically prominent peak on Earth. The first people known to have reached the summit were Hans Meyer and Ludwig Purtscheller, in 1889. It is part of Kilimanjaro National Park and is a major climbing destination. Because of its shrinking glaciers and disappearing ice fields, it has been the subject of many scientific studies."
+                            android:textColor="#6f6f6f"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
